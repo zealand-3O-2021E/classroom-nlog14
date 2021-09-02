@@ -10,6 +10,16 @@ namespace ClassRoom
     {
         static void Main(string[] args)
         {
+            //Task 3
+            ClassRoom classRoom = new ClassRoom()
+            {
+                className = "3Q",
+                semesterStart = new DateTime(2021, 08, 30)
+            };
+            classRoom.classList.Add(new Student("Nohely", 07, 14));
+            classRoom.classList.Add(new Student("Niko", 12, 21));
+            classRoom.classList.Add(new Student("Adriana", 09, 08));
+
         }
     }
 }

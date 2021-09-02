@@ -8,6 +8,7 @@ namespace ClassRoom
 {
     class Student
     {
+        //Task 1
         public string name { get; set; }
         public int birthMonth { get; set; }
         public int birthDay { get; set; }
