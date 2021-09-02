@@ -15,7 +15,7 @@ namespace ClassRoom
         public int birthMonth
         {
             get { return _birthMonth; }
-            set
+           private set
             { //Task 7
                 if (value >= 1 && value <= 12)
                 {
