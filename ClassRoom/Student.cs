@@ -22,7 +22,7 @@ namespace ClassRoom
                     _birthMonth = value;
                 }
                 else
-                    throw new ArgumentException("Birth Month should be between 1 and 12.");
+                    throw new ArgumentException("Birth month should be between 1 and 12.");
             }
         }
         
